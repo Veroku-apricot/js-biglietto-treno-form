@@ -53,6 +53,8 @@ genera.addEventListener('click',
 annulla.addEventListener('click',
   function() {
     ticket.style.visibility = "hidden";
-    
+    document.getElementById("name").value = "";
+    document.getElementById("km").value = "";
+    document.getElementById("age").value = "minorenne";
   }
 );
