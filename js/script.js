@@ -5,7 +5,7 @@ var ticket = document.getElementById("ticket");
 
 // Output
 genera.addEventListener('click',
-  function getInputValue() {
+  function() {
 
     // Passenger name
     var name = document.getElementById("name").value;
